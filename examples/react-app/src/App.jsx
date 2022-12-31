@@ -1,13 +1,7 @@
-import './App.css'
-import Button from 'lib/Button'
+import Gather from "../../../packages/lib/Gather";
 
 function App() {
-
-  return (
-    <div>
-      <Button />
-    </div>
-  )
+	return <Gather />;
 }
 
-export default App
+export default App;
